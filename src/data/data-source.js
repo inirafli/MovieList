@@ -1,7 +1,7 @@
 import axios from "axios"
 
 const baseUrl = 'https://api.themoviedb.org/3/'
-const API_KEY = 'TMDB_API_KEY'
+const API_KEY = 'YOUR_TMDB_API_KEY'
 
 class DataSource {
     static async getTrendingMovies() {
